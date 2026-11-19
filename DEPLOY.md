@@ -79,8 +79,8 @@ forge verify-contract <CONTRACT_ADDRESS> src/AgentBadges.sol:AgentBadges \
    - `CONTRACT_ADDRESS` to the deployed address
    - `DEPLOY_BLOCK` to the block number of the deployment transaction
 2. Commit + push to GitHub, enable **GitHub Pages** on the repo
-   (Settings → Pages → Deploy from branch, folder `/frontend` or root —
-   the page must serve `index.html` and `badges/*.svg`).
+   (Settings → Pages → Deploy from branch, folder `/docs` —
+   `docs/` is a copy of `frontend/`; the page must serve `index.html` and `badges/*.svg`).
 3. Open the Pages URL, connect a wallet that holds an Agent ID, and smoke
    test: GM → check streak → tip 0.0001 BNB to another holder → claim
    badge 1. Confirm each transaction on BscScan.
