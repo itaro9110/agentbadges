@@ -6,8 +6,8 @@
 // DEPLOY_BLOCK to the block number of the deployment transaction.
 // ---------------------------------------------------------------------------
 const CONFIG = {
-  CONTRACT_ADDRESS: "0x0000000000000000000000000000000000000000", // TODO
-  DEPLOY_BLOCK: 0, // TODO
+  CONTRACT_ADDRESS: "0xA79F2cCB4470f5E499eA60a08888b49636AA6228",
+  DEPLOY_BLOCK: 134514322,
   AGENT_ID_ADDRESS: "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
   CHAIN_ID: 56, // BSC mainnet
   RPC_URL: "https://bsc-dataseed.binance.org/",
